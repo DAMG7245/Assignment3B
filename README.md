@@ -16,7 +16,7 @@ The pipeline focuses on Bitcoin, Ethereum, and Dogecoin with data from January 2
 
 ## Architecture
 
-![Architecture Diagram](assets/architecture.png)
+![Architecture Diagram](assets/Screenshot 2025-03-17 at 1.02.56 PM.png)
 
 The data pipeline consists of the following components:
 
