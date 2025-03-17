@@ -3,7 +3,7 @@
 This repository contains a comprehensive data pipeline for ingesting, processing, and analyzing cryptocurrency price data using Snowflake and Snowpark Python. The pipeline pulls data from Yahoo Finance and CoinGecko APIs, processes it through a multi-stage architecture, and provides analytics and visualizations.
 
 
-### ➡️ For overview, prerequisites, and to learn more, complete this end-to-end tutorial [Data Engineering with Notebooks](https://quickstarts.snowflake.com/guide/data_engineering_with_notebooks/index.html?index=..%2F..index#0) on quickstarts.snowflake.com.
+### ➡️ For overview, prerequisites, and to learn more, complete this end-to-end tutorial [Data Engineering with Notebooks](https://codelabs-preview.appspot.com/?file_id=1SIXWV1sl0IVc_6BME22Uj84kIkyHPPOUMs0PCo3Rb_Y#0).
 
 ## Project Overview
 
