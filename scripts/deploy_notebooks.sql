@@ -41,7 +41,7 @@ ALTER NOTEBOOK "CRYPTO_DB"."{{env}}_SCHEMA"."{{env}}_Data_Analytics" ADD LIVE VE
 CREATE OR REPLACE NOTEBOOK IDENTIFIER('"CRYPTO_DB"."{{env}}_SCHEMA"."{{env}}_Task_Orchestration"')
     FROM '@"CRYPTO_DB"."INTEGRATIONS"."CRYPTO_GIT_REPO"/branches/"{{branch}}"/notebooks/05.Task_Orchestration/'
     QUERY_WAREHOUSE = 'CRYPTO_WH'
-    MAIN_FILE = '05_Task_Orchestration.ipynb';
+    MAIN_FILE = '05.Task_Orchestration.ipynb';
 
 -- Add a live version
 ALTER NOTEBOOK "CRYPTO_DB"."{{env}}_SCHEMA"."{{env}}_Task_Orchestration" ADD LIVE VERSION FROM LAST;
